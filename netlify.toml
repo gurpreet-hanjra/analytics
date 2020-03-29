@@ -1,4 +1,4 @@
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
-    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.matomo.cloud; img-src 'self' https://test-analytics.matomo.cloud;"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.matomo.cloud https://static.etracker.com; img-src 'self' https://test-analytics.matomo.cloud;"
