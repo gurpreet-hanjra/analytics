@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  [headers.values]
+    Content-Security-Policy = "script-src 'self"
