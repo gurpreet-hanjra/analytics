@@ -1,4 +1,4 @@
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
   [headers.values]
-    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.matomo.cloud https://static.etracker.com https://code.etracker.com https://www.etracker.de https://verimi.containers.piwik.pro https://verimi.piwik.pro; img-src 'self' https://test-analytics.matomo.cloud;"
+    Content-Security-Policy = "script-src 'self' 'unsafe-inline' https://cdn.matomo.cloud https://static.etracker.com https://code.etracker.com https://www.etracker.de https://verimi.containers.piwik.pro; img-src 'self' https://test-analytics.matomo.cloud https://verimi.piwik.pro;"
